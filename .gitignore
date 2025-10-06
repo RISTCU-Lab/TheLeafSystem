@@ -1,0 +1,5 @@
+# 忽略 pgsql 目录下的所有内容
+/pgsql/*
+# 但保留 pgsql/data 目录及其内容
+!/pgsql/data/
+!/pgsql/data/**
