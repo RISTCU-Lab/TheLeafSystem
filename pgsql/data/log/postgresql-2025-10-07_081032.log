@@ -1,0 +1,17 @@
+2025-10-07 08:10:32.944 CST [31656] 日志:  正在启动 PostgreSQL 17.5 on x86_64-windows, compiled by msvc-19.44.35209, 64-bit
+2025-10-07 08:10:32.947 CST [31656] 日志:  正在监听IPv4地址"127.0.0.1"，端口 5432
+2025-10-07 08:10:32.948 CST [31656] 日志:  正在监听IPv6地址"::1"，端口 5432
+2025-10-07 08:10:32.992 CST [33416] 日志:  数据库系统中断；上一次的启动时间是在2025-10-07 01:13:12 CST
+2025-10-07 08:10:33.478 CST [33416] 日志:  数据库系统没有正确的关闭; 处于自动恢复状态中
+2025-10-07 08:10:33.481 CST [33416] 日志:  invalid record length at 0/1572EF0: expected at least 24, got 0
+2025-10-07 08:10:33.481 CST [33416] 日志:  不需要 redo
+2025-10-07 08:10:33.487 CST [30604] 日志:  checkpoint starting: end-of-recovery immediate wait
+2025-10-07 08:10:33.502 CST [30604] 日志:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.008 s, total=0.020 s; sync files=2, longest=0.006 s, average=0.004 s; distance=0 kB, estimate=0 kB; lsn=0/1572EF0, redo lsn=0/1572EF0
+2025-10-07 08:10:33.518 CST [31656] 日志:  数据库系统准备接受连接
+2025-10-07 08:10:50.313 CST [31656] 日志:  接收到快速 (fast) 停止请求
+2025-10-07 08:10:50.323 CST [31656] 日志:  中断任何激活事务
+2025-10-07 08:10:50.327 CST [31656] 日志:  后台工作进程 "logical replication launcher" (PID 12724) 已退出, 退出代码 1
+2025-10-07 08:10:50.328 CST [30604] 日志:  正在关闭
+2025-10-07 08:10:50.330 CST [30604] 日志:  checkpoint starting: shutdown immediate
+2025-10-07 08:10:50.336 CST [30604] 日志:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.008 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/1572FA0, redo lsn=0/1572FA0
+2025-10-07 08:10:50.340 CST [31656] 日志:  数据库系统已关闭
